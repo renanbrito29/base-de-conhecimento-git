@@ -17,7 +17,7 @@
 `$ git config --global credential.helper cache` Salva as credencias permanentemente 
 
 ### Alias Registration
-[https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases] (Git Alias Documentation)  
-`$ git config alias.ALIAS COMMAND` Registra um alias local. ALIAS = Alias name, Command = Git Command   
+[Git Alias Documentation](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)    
+`$ git config alias.ALIAS COMMAND` Registra um alias local. **ALIAS = Alias name, Command = Git Command**     
 `$ git config --global alias.ALIAS COMMAND` Registra um alias global  
 `$ git config --get-regexp alias` Lista todos os alias  
