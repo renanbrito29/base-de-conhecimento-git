@@ -19,5 +19,6 @@
 `file.txt` `file1.txt file2.txt` `folder/` `*.txt` `file-*`
 
 ## Commit
-`$ git commit -m 'message'` Realiza o **COMMIT** movendo os arquivos da **INDEX** para o **HEAD**  
-`$ git commit -am 'message'` Realiza o **ADD** em seguinda realiza o **COMMIT** dos arquivos para o **HEAD**  
+`$ git commit -m 'message'` Realiza o commit movendo os arquivos da **INDEX** para o **HEAD**  
+`$ git commit -am 'message'` Coloca o arquivo no stage em seguinda realiza o commit dos arquivos para o **HEAD**  
+`$ git commit -amend -m 'message'` Altera a mensagem do ultimo commit  
