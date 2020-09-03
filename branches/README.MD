@@ -3,7 +3,8 @@
 ## Criar branches
 `git branch branch_name` Cria uma nova branch  
 `git checkout -b branch_name` Cria uma branch e altera  
-`git push remote_repo:nova_remote_branch` Cria uma branch remota  
+`git push remote_repo nova_remote_branch` Cria uma branch remota  
+`git fetch origin remote_branch:new_local_branch` Cria uma branch local e atualiza com o conteudo da branch remota  
 
 ## Deletar branch
 `git push remote_repo :remote_branch` Remove uma branch remota 
