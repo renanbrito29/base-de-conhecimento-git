@@ -13,11 +13,11 @@
 ### Receber e excutar atualizações
 
 #### Atualização com git fetch + git merge
-`git fetch remote_repo remote_branch` Atualiza o **HEAD** com base no repositório remoto na **BRANCH** origem  
-`git merge FETCH_HEAD` Faz a junção do **HEAD** com o **WORKING DIRECTORY**  
+`$ git fetch remote_repo remote_branch` Atualiza o **HEAD** com base no repositório remoto na **BRANCH** origem  
+`$ git merge FETCH_HEAD` Faz a junção do **HEAD** com o **WORKING DIRECTORY**  
 
 #### Atualização com git pull
-`git pull remote_repo remote_branch` Atualiza com **MERGE** o **WORKING DIRECTORY** com base no repositório remoto na **BRANCH** origem   
-`git pull -u remote_repo remote_branch` Atualiza com **MERGE** o **WORKING DIRECTORY** com base no repositório remoto na **BRANCH** origem e cria uma referencia para o repositorio + **BRANCH**  
-`git pull --rebase` Atualiza com **REBASE** o **WORKING DIRECTORY** com base no repositório remoto na **BRANCH** origem  
+`$ git pull remote_repo remote_branch` Atualiza com **MERGE** o **WORKING DIRECTORY** com base no repositório remoto na **BRANCH** origem   
+`$ git pull -u remote_repo remote_branch` Atualiza com **MERGE** o **WORKING DIRECTORY** com base no repositório remoto na **BRANCH** origem e cria uma referencia para o repositorio + **BRANCH**  
+`$ git pull --rebase` Atualiza com **REBASE** o **WORKING DIRECTORY** com base no repositório remoto na **BRANCH** origem  
 >*git pull é um atalho para os comandos git fetch + git merge*
