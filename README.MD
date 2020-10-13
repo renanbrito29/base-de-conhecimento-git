@@ -26,3 +26,4 @@
 2. Adicionar a seguinte linha no final do arquivo  
 `export PS1='\u@\h\[\033[01;34m\] \w\[\033[0;32m\]$(__git_ps1 " (%s)")\[\033[01;34m\]$\[\033[00m\] '`  
 3. Reiniciar o terminal
+
