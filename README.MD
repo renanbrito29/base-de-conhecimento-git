@@ -1,5 +1,8 @@
 # Base de conhecimento GIT
 
+## Documentação  
+[https://git-scm.com/docs](https://git-scm.com/docs)  
+
 ## Instalacao GIT
 
 [https://git-scm.com/](https://git-scm.com/)
